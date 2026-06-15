@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Profil -->
+    <header class="header">
+        <img src="https://via.placeholder.com/150" alt="Foto Profil" class="foto-profil">
+        <h1>Nama Lengkap</h1>
+        <p class="jabatan">Posisi / Pekerjaan</p>
+        <p class="kontak">Jakarta, Indonesia | email@contoh.com | +62 812-3456-7890</p>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="konten">
+        <div class="kolom-kiri">
+            <!-- Tentang Saya -->
+            <section class="kotak">
+                <h2>Tentang Saya</h2>
+                <p>Orang yang bertanggung jawab, mudah beradaptasi, dan memiliki semangat belajar tinggi. Berkomitmen untuk memberikan yang terbaik dalam setiap tugas dan pekerjaan.</p>
+            </section>
+
+            <!-- Keahlian -->
+            <section class="kotak">
+                <h2>Keahlian</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Komunikasi & Kerja Sama Tim</li>
+                    <li>Manajemen Waktu</li>
+                    <li>Pemecahan Masalah</li>
+                </ul>
+            </section>
+
+            <!-- Pendidikan -->
+            <section class="kotak">
+                <h2>Pendidikan</h2>
+                <p><strong>Universitas Contoh</strong><br>Sarjana Teknik Informatika<br>2018 - 2022</p>
+                <p><strong>SMA Negeri 1 Jakarta</strong><br>Jurusan IPA<br>2015 - 2018</p>
+            </section>
+        </div>
+
+        <div class="kolom-kanan">
+            <!-- Pengalaman Kerja -->
+            <section class="kotak">
+                <h2>Pengalaman Kerja</h2>
+                <div class="pengalaman">
+                    <h3>Staf Administrasi & Humas</h3>
+                    <p class="perusahaan">Lembaga Kemanusiaan Tzu Chi Indonesia | 2022 - Sekarang</p>
+                    <ul>
+                        <li>Mengelola data kegiatan bantuan sosial dan kemanusiaan</li>
+                        <li>Mendampingi program bantuan untuk daerah bencana</li>
+                        <li>Membuat laporan dan dokumentasi kegiatan</li>
+                    </ul>
+                </div>
+                <div class="pengalaman">
+                    <h3>Relawan Kegiatan Sosial</h3>
+                    <p class="perusahaan">Berbagai Komunitas | 2019 - 2022</p>
+                    <ul>
+                        <li>Berpartisipasi dalam penyaluran bantuan kebutuhan pokok</li>
+                        <li>Membantu penyelenggaraan acara pendidikan dan keagamaan</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Tombol Interaktif -->
+            <section class="kotak tengah">
+                <h2>Info Tambahan</h2>
+                <button onclick="tampilPesan()" class="tombol">Klik di sini</button>
+                <p id="pesan" class="pesan tersembunyi">✨ Terima kasih telah melihat CV saya. Siap berdiskusi lebih lanjut!</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        &copy; 2026 CV Saya. Semua hak dilindungi.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
